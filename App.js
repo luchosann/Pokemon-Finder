@@ -44,7 +44,7 @@ const App = () => {
           <View style={styles.container}>
               <View style={styles.container2}>
                 {pokemon.name ? (
-                  <View style={{flex:1}}>
+                  <View>
                       {errorMessage ? (
                           <View style={styles.errorText}>
                             <Text style={{fontWeight: 'bold'}}>the pokemon does not exist</Text>
